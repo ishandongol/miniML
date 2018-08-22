@@ -1,6 +1,6 @@
 import numpy as np
 
-class MiniML:
+class LinearRegression:
 
     __hypothesis = None
 

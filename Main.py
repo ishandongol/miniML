@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
 
-from miniML.MiniML import MiniML
+from linearRegression.LinearRegression import LinearRegression
 
 boston = load_boston()
 bostonData = pd.DataFrame(boston.data)
@@ -26,20 +26,19 @@ print('Training Data: \t',len(X_train))
 print('Validation Data: \t',len(X_validate))
 print('Test Data: \t',len(X_test))
 
-alpha = 0.001 #? Learning Rate
-lamda = 0.1 #? regularization rate
+alpha = 0.001 # Learning Rate
+lamda = 0.1  # regularization rate
 max_iterations = 10000
 W = np.zeros((1,len(X_train[0,:])))
 
-miniML = MiniML()
-Weight, Cost = miniML.train(X_train,Y_train,W,alpha,max_iterations,lamda)
+linearRegression = LinearRegression()
+Weight, Cost = linearRegression.train(X_train,Y_train,W,alpha,max_iterations,lamda)
 
 w = Weight.flatten()
 pandasW = pd.DataFrame(Weight.T)
 pandasW.columns = ["Theta"]
 print(pandasW)
-
-plt.scatter(Y_train,miniML.getHypothesis())
+plt.scatter(Y_train,linearRegression.getHypothesis())
 plt.xlabel("Prices: $Y_I$")
 plt.ylabel("Predicted Prices: $\hat{y}_i$")
 plt.title("Prices vs predicted prices: $Y_i$ vs $\hat{y}_i$ (Training)")
@@ -49,17 +48,17 @@ print('')
 print("Training Cost \t\t", Cost[len(Cost)-1])
 print('')
 
-cost_validation = miniML.validate(X_validate,Y_validate,Weight)
+cost_validation = linearRegression.validate(X_validate,Y_validate,Weight)
 print("Validation Cost \t",cost_validation)
 print('')
-plt.scatter(Y_validate,miniML.getHypothesis())
+plt.scatter(Y_validate,linearRegression.getHypothesis())
 plt.xlabel("Prices: $Y_I$")
 plt.ylabel("Predicted Prices: $\hat{y}_i$")
 plt.title("Prices vs predicted prices: $Y_i$ vs $\hat{y}_i$ (Validation)")
 
-cost_test = miniML.test(X_test,Y_test,Weight)
+cost_test = linearRegression.test(X_test,Y_test,Weight)
 print("Test Cost \t\t",cost_test)
-plt.scatter(Y_test,miniML.getHypothesis(),color='g')
+plt.scatter(Y_test,linearRegression.getHypothesis(),color='g')
 plt.xlabel("Prices: $Y_I$")
 plt.ylabel("Predicted Prices: $\hat{y}_i$")
 plt.title("Prices vs predicted prices: $Y_i$ vs $\hat{y}_i$ (Test)")
