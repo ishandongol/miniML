@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ae6d6b9-c04b-4206-91b1-41910888a871" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runners/linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/runners/linear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runners/logistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/runners/logistic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,15 +19,17 @@
     <session id="-1254793076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -37,7 +37,7 @@
           <entry key="Python Console" value="5" />
           <entry key="dummy" value="34" />
           <entry key="md" value="42" />
-          <entry key="py" value="1051" />
+          <entry key="py" value="1072" />
           <entry key="txt" value="66" />
         </counts>
       </usages-collector>
@@ -45,11 +45,12 @@
         <counts>
           <entry key="Markdown" value="42" />
           <entry key="PLAIN_TEXT" value="100" />
-          <entry key="Python" value="1056" />
+          <entry key="Python" value="1077" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="ipynb" value="2" />
           <entry key="md" value="1" />
           <entry key="py" value="9" />
           <entry key="xml" value="1" />
@@ -58,6 +59,7 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="Python" value="9" />
           <entry key="XML" value="1" />
@@ -67,11 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <marker date="1534994470012" expanded="true" signature="111:171" ph="..." />
               </folding>
@@ -82,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runners/logistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="702">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -91,37 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runners/linear.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LogisticRegression.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linearRegression/LinearRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logisticRegression/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logisticRegression/LogisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -146,8 +131,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/runners/linear.py" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/runners/logistic.py" />
+        <option value="$PROJECT_DIR$/LogisticRegression.ipynb" />
+        <option value="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" />
       </list>
     </option>
   </component>
@@ -168,22 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiniML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiniML" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticRegression" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -200,6 +170,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiniML" type="462c0819:PsiDirectoryNode" />
+              <item name="logisticRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +195,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -229,6 +216,9 @@
       <module name="MiniML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -291,7 +281,7 @@
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15853658" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16352549" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,7 +292,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" content_ui="combo" id="Python Console" order="10" weight="0.31004366" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -312,9 +302,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" x="0" y="0" width="412" height="853" id="Documentation" order="5" sideWeight="0.2882736" side_tool="true" visible="true" weight="0.29767185" />
+      <window_info anchor="right" x="0" y="0" width="412" height="853" id="Documentation" order="5" sideWeight="0.2931596" side_tool="true" visible="true" weight="0.29767185" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="SciView" order="7" sideWeight="0.71172637" visible="true" weight="0.29767185" />
+      <window_info active="true" anchor="right" id="SciView" order="7" sideWeight="0.7068404" visible="true" weight="0.29767185" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,9 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,30 +349,37 @@
     <entry file="file://$PROJECT_DIR$/logisticRegression/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logisticRegression/LogisticRegression.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1534994470012" expanded="true" signature="111:171" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runners/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="702">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/logisticRegression/LogisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1534994470012" expanded="true" signature="111:171" ph="..." />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogisticRegression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
         </state>
       </provider>
     </entry>

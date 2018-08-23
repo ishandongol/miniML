@@ -39,3 +39,6 @@ class LogisticRegression:
 
     def test(self, X, Y, W, lamda=0):
         return self.__get_cost(X, Y, W, 0)
+
+    def predict(self, X, W):
+        return self.get_sigmoid(X, W)
