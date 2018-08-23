@@ -2,7 +2,6 @@ import numpy as np
 import glob
 import imageio as magic
 import pandas as pd
-import collections
 from sklearn.model_selection import train_test_split
 
 from logisticRegression.LogisticRegression import LogisticRegression
@@ -10,9 +9,10 @@ from logisticRegression.LogisticRegression import LogisticRegression
 
 def logistic_regression_runner():
     image_data = []
-    label = []
+    label_list = []
     for file_name in glob.iglob('/home/lognod/Desktop/nhcd/numerals/**/*.jpg', recursive=True):
         image_array = magic.imread(file_name, as_gray=True)
+        label_list.append(file_name[-12:-11])
         label = int(file_name[-12:-11])
         pixel_data = (255.0 - image_array.flatten()) / 256.0
         pixel_data = np.append(label, pixel_data)
@@ -36,7 +36,7 @@ def logistic_regression_runner():
     weight_list = []
     cost_list = []
 
-    for i in range(10):
+    for i in range(len(label_list)):
         W = np.zeros((1, len(X_train[0, :])))
         print("Learning: ", float(i))
         Y_train_one = (Y_train == float(i)).astype(int)
