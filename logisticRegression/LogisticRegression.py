@@ -17,15 +17,19 @@ class LogisticRegression:
             (Y * np.log(self.get_sigmoid(X, W))) + ((1 - Y) * np.log(1 - self.get_sigmoid(X, W))))
 
     def __get_gradient(self, X, Y, W, lamda):
-        return (1.0 / len(X)) * (np.sum(X * (X @ W.T - Y), axis=0) + (lamda * W))
+        return (1.0 / len(X)) * (np.sum(X * (self.get_hypothesis(X, W) - Y), axis=0) + (lamda * W))
 
     def __logistic_regression(self, X, Y, W, alpha, max_iterations, lamda):
+
         for i in range(max_iterations):
+
             W = W - alpha * self.__get_gradient(X, Y, W, lamda)
             cost = self.__get_cost(X, Y, W, lamda)
+
             if i % 100 == 0:
                 print("Cost: ", cost)
-            return W, cost
+
+        return W, cost
 
     def train(self, X, Y, W, alpha, max_iterations, lamda=0):
         return self.__logistic_regression(X, Y, W, alpha, max_iterations, lamda)
