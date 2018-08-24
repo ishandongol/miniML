@@ -35,6 +35,7 @@ def logistic_regression_runner():
     logistic_regression = LogisticRegression()
     weight_list = []
     cost_list = []
+    label_list = set(label_list)
 
     for i in range(len(label_list)):
         W = np.zeros((1, len(X_train[0, :])))
@@ -46,5 +47,20 @@ def logistic_regression_runner():
 
     print(weight_list)
 
+    weights = np.array(weight_list)
+    weights_data = pd.DataFrame(weights)
+    weights_data.to_csv("/home/lognod/mini_logistic3.csv")
 
-    
+    logistic_regression = LogisticRegression()
+    weights = pd.read_csv("/home/lognod/mini_logistic3.csv")
+    y = []
+    for i in range(10):
+        y.append(logistic_regression.predict(X_validate[20, :], weights.iloc[i, 1:]))
+
+    prediction = np.where(y == np.amax(y))
+    print(prediction[0])
+
+    test = X_validate[20, 1:]
+
+    image = test.reshape(-1, 28)
+    magic.imwrite('/home/lognod/predicted.png', image)
