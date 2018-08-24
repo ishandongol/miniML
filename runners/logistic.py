@@ -41,7 +41,7 @@ def logistic_regression_runner():
         W = np.zeros((1, len(X_train[0, :])))
         print("Learning: ", float(i))
         Y_train_one = (Y_train == float(i)).astype(int)
-        weight, cost = logistic_regression.train(X_train, Y_train_one, W, 0.01, 10000, 0)
+        weight, cost = logistic_regression.train(X_train, Y_train_one, W, 0.01, 100, 0)
         weight_list.append(weight.flatten())
         cost_list.append(cost)
 
@@ -51,6 +51,8 @@ def logistic_regression_runner():
     weights_data = pd.DataFrame(weights)
     weights_data.to_csv("/home/lognod/mini_logistic3.csv")
 
+    pd.DataFrame(cost_list).to_csv("/home/lognod/cost_logistic_3.csv")
+
     logistic_regression = LogisticRegression()
     weights = pd.read_csv("/home/lognod/mini_logistic3.csv")
     y = []
@@ -58,7 +60,7 @@ def logistic_regression_runner():
         y.append(logistic_regression.predict(X_validate[20, :], weights.iloc[i, 1:]))
 
     prediction = np.where(y == np.amax(y))
-    print(prediction[0])
+    print("It is: ",prediction[0])
 
     test = X_validate[20, 1:]
 
