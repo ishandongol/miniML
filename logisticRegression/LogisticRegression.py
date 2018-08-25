@@ -14,7 +14,7 @@ class LogisticRegression:
 
     def __get_cost(self, X, Y, W, lamda):
         return -(1.0 / len(X)) * (np.sum(
-            (Y * np.log(self.get_sigmoid(X, W))) + ((1 - Y) * np.log(1 - self.get_sigmoid(X, W)))) + lamda)
+            (Y * np.log(self.get_sigmoid(X, W))) + ((1 - Y) * np.log(1 - self.get_sigmoid(X, W)))) - lamda)
 
     def __get_gradient(self, X, Y, W, lamda):
         return (1.0 / len(X)) * (np.sum(X * (self.get_hypothesis(X, W) - Y), axis=0) + (lamda * np.sum(W)))
