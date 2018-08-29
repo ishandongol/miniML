@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae6d6b9-c04b-4206-91b1-41910888a871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ANN_Keras/ANN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANN_Keras/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jupyter/LogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/LogisticRegression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_logistic_with_regularization.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mini_logistic_with_regularization.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_logistic_without_regularization.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mini_logistic_without_regularization.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +22,19 @@
     <session id="-1254793076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -39,7 +42,7 @@
           <entry key="Python Console" value="5" />
           <entry key="dummy" value="34" />
           <entry key="md" value="42" />
-          <entry key="py" value="1374" />
+          <entry key="py" value="1456" />
           <entry key="txt" value="66" />
         </counts>
       </usages-collector>
@@ -47,14 +50,14 @@
         <counts>
           <entry key="Markdown" value="42" />
           <entry key="PLAIN_TEXT" value="100" />
-          <entry key="Python" value="1379" />
+          <entry key="Python" value="1461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="6" />
           <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -63,7 +66,7 @@
         <counts>
           <entry key="IPNB" value="6" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -75,9 +78,9 @@
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
-                <marker date="1534994470012" expanded="true" signature="111:171" ph="..." />
+                <marker date="1535476671103" expanded="true" signature="142:204" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runners/logistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="396">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -104,11 +107,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logisticRegression/LogisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ANN_Keras/ANN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1535478829250" expanded="true" signature="227:1306" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +148,12 @@
         <option value="$PROJECT_DIR$/linearRegression/Linear.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/runners/linear.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/LogisticRegression.ipynb" />
         <option value="$PROJECT_DIR$/jupyter/LogisticRegression.ipynb" />
         <option value="$PROJECT_DIR$/runners/logistic.py" />
         <option value="$PROJECT_DIR$/logisticRegression/LogisticRegression.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/ANN_Keras/ANN.py" />
       </list>
     </option>
   </component>
@@ -147,10 +164,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="132" />
+    <option name="x" value="70" />
     <option name="y" value="27" />
-    <option name="width" value="1840" />
-    <option name="height" value="789" />
+    <option name="width" value="925" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -167,12 +184,7 @@
             <path>
               <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
               <item name="MiniML" type="462c0819:PsiDirectoryNode" />
-              <item name="jupyter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiniML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiniML" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="ANN_Keras" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/opt/anaconda3/bin/conda" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -286,8 +298,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16851442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17350332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,7 +311,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" content_ui="combo" id="Python Console" order="10" weight="0.31004366" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -308,9 +321,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" x="0" y="0" width="412" height="853" id="Documentation" order="5" sideWeight="0.29967427" side_tool="true" visible="true" weight="0.29767185" />
+      <window_info anchor="right" x="0" y="0" width="412" height="853" id="Documentation" order="5" sideWeight="0.30130294" side_tool="true" visible="true" weight="0.29767185" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="SciView" order="7" sideWeight="0.7003257" visible="true" weight="0.29767185" />
+      <window_info anchor="right" id="SciView" order="7" sideWeight="0.6986971" visible="true" weight="0.11585366" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,20 +370,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LogisticRegression.ipynb" />
     <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/LogisticRegression-checkpoint.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1534994470012" expanded="true" signature="111:171" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runners/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="396">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -388,6 +391,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1535476671103" expanded="true" signature="142:204" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN_Keras/ANN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1535478829250" expanded="true" signature="227:1306" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
