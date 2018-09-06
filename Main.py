@@ -1,9 +1,11 @@
-# from runners.linear import linear_regression_runner
-# from runners.logistic import logistic_regression_runner
-from ANN_Keras.ANN import run
+import argparse
+arg = argparse.ArgumentParser()
+arg.add_argument('-d','--dir',required=True, help = "Dataset Directory")
+arg.add_argument('-o','--output',required=True, help = "Model output name")
+arg.add_argument('-t','--text',required=True, help = "Text or Image (Boolean) ")
+args = vars(arg.parse_args())
 
-# linear_regression_runner()
+from CNN_Keras.CNNModel import CNNModel
 
-# logistic_regression_runner()
-
-run()
+model = CNNModel()
+model.run(args['dir'],args['output'],args['text'])
