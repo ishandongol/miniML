@@ -47,6 +47,7 @@ class CNNModel:
         model.add(Dropout(Params.CoreLayers["dropout"]))
         model.add(Dense(Params.CoreLayers["output_node"],activation=Params.CoreLayers["activation_output"]))
         print(model.summary())
+
         return model
 
     def run(self,url,output,type):
@@ -69,8 +70,6 @@ class CNNModel:
         model = self.create_model()
         adam = Adam(lr=Params.Parameters["lr"], beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
         model.compile(optimizer=adam, loss=Params.Parameters["loss"],metrics=['accuracy'])
-
-
 
         one_hot_labels = to_categorical(y_train, Params.CoreLayers["output_node"])
         one_hot_validate = to_categorical(y_validate, Params.CoreLayers["output_node"])
